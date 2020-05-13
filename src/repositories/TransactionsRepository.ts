@@ -14,16 +14,12 @@ class TransactionsRepository {
   }
 
   public all(): Transaction[] {
-    // TODO
+    return this.transactions;
   }
 
-  public getBalance(): Balance {
-    // TODO
-  }
+  public getBalance(): Balance {}
 
-  public create(): Transaction {
-    // TODO
-  }
+  public create(): Transaction {}
 }
 
 export default TransactionsRepository;
